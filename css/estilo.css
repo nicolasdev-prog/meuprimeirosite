@@ -28,6 +28,7 @@ figure{
 
 .img_topo{
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .img_corpo{
@@ -97,5 +98,20 @@ footer{
    section{
     margin-top: 2%;
     margin-bottom: 2%;
+  }
+  .direita{
+    float: right;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 40%;
+  }
+  
+  .esquerda{
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
   }
   

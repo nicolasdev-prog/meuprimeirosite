@@ -142,3 +142,6 @@ footer{
   tr:nth-child(even) {
     background-color: #252525;
   }
+  audio{
+  width: 85%;
+}

@@ -7,25 +7,42 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+  background-image: url();
+  background-repeat: no-repeat;
+  letter-spacing: 3.1px;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
 
-p{
+  p{ 
     color: rgb(218, 218, 218);
     line-height: 1.3;
     text-align: justify;
     text-indent: 40px;
     font-family: 'PatuaOne-Regular', Helvetica, sans-serif,cursive;
     font-size:2em;
+    }
+  
+li{
+  display: inline;
 }
+  ul{
+    background-color: rgb(243, 181, 12);
+  }
+
 
 h1{
     color: rgb(243, 181, 12);
-    text-align: center;
+    
     font-family: 'Signika+Negative", Helvetica, sans-serif',cursive;
     font-size: 3em;
+    text-align: center;
 }
 
 figure{
-    text-align: center;
+  text-align: center;
 }
 .container{
     width:70%;
@@ -46,6 +63,10 @@ figure{
    padding: 1%;
 
 }
+.menu,footer{
+  padding: 2%;
+
+}
 .itens_menu{
   padding-top: 1%;
   line-height: 1.5;
@@ -58,6 +79,11 @@ figure{
     font-weight: bolder;
   
   }
+    .itens_menu a:visited, a link {
+      text-decoration: none;
+      font-weight: bolder;
+      text-shadow: 2px 2px black;
+    }
   
   .itens_menu a:hover{
     background-color: rgba(9, 7, 6, 0.4);
@@ -67,19 +93,28 @@ figure{
   .itens_menu a:active{
     color: black;
   }
+  .itens_menu a:hover{
+    padding: 0.8%;
+  }
+  .center{
+    position: absolute;
+    margin:2% 
+  }
 
 h2{
     color: rgb(243, 181, 12);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.8em;
+    font-size: 3em;
     font-family: 'Signika+Negative", Helvetica, sans-serif',cursive;
 }
 
 footer{
-    background-color: rgba(39, 39, 43, 0.6);
+    background-color:rgba(39, 39, 43, 0.9);
     padding: 2%;
+    margin-top: 2%;
   }
+ 
   .botao{
      margin: 1%;
      width: 100px;
@@ -166,5 +201,8 @@ td, th {
 tr:nth-child(even) {
   background-color: #1d6cffb0;
 }
-.row '{
+.row{
 margin-bottom: 2%;}
+  .form,p{
+    color: rgb(255, 255, 255);
+  }

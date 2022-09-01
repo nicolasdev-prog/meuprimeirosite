@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+body{
+       
+    background-color: 	#1C1C1C;
+           background-size: cover;
+           background-attachment: fixed;
+        color: white;
+    }
+
+    .container{
+        position: relative;
+        background-color: rgba(255, 102, 0, 0.486);
+        width: 100%;
+        height: 1220px;
+        text-align: center;
+    }
+
+    .topoesquerda{
+        position: absolute;
+        background-color: crimson;
+        margin-top: 16px;
+        left: 16px;   
+    }
+
+    .topodireita{
+        position: absolute;
+        background-color: rgb(143, 220, 20);
+        margin-top: 16px;
+        right: 16px;   
+    }
+
+    .baixoesquerda{
+        position: absolute;
+        background-color: rgb(20, 220, 160);
+        bottom: 16px;
+        left: 16px;   
+    }
+
+    .baixodireita{
+        position: absolute;
+        background-color: rgb(20, 180, 220);
+        bottom: 16px;
+        right: 16px;   
+    }
+
+    .centro{
+        position: absolute;
+        background-color: rgb(163, 20, 220);
+        margin-top: 610px;
+        left: 50%;   
+    }
+
+    h1{
+        position: fixed;
+        text-align: center;
+        z-index: 1030;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+   .main{
+    margin-top: 8%;
+   }
+
+   .botao{
+    margin: 1%;
+     width: 100px;
+     height: 30px;
+     padding: 10px;
+     background-color: rgba(9, 7, 6, 0.3);
+     margin: auto;
+   }
+   .botao:hover{
+     background-color:#3a3a3a;
+   }
+   .botao a:link, .botao a:visited{
+     color:#ffffff;
+     text-decoration: none;
+     font-weight: bolder;
+   }
+   .botao p{
+     text-align: center;
+   }
+
+
+</style>
+<body>
+    <header>
+        <h1>Teste de Posicionamento</h1>
+    </header>
+    <div class="main">
+        <h2>Teste...</h2>
+        <div class="container">
+            <div class="topoesquerda">Topo Esquerda</div>
+            <div class="topodireita">Topo Direita</div>
+            <div class="baixoesquerda">Baixo Esquerda</div>
+            <div class="baixodireita">Baixo Direita</div>
+            <div class="centro">Centro</div>
+
+        </div>
+
+    </div>
+
+    <div class="botao">
+        <p>
+            <a href="index.html">Voltar</a>
+
+        </p>
+    </div>
+    
+</html>

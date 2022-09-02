@@ -31,8 +31,21 @@ li{
   ul{
     background-color: rgb(243, 181, 12);
   }
-
-
+  .olha{
+    width: 40%;
+   }
+   .como{
+    width: 50%;
+   }
+   .isso{
+    width: 40%;
+   }
+   .veja{
+    width: 38%;
+   }
+  .img_logo {
+    width: 10%;
+}
 h1{
   color: rgb(243, 181, 12);
     font-family: 'Signika+Negative", Helvetica, sans-serif',cursive;
@@ -60,8 +73,9 @@ figure{
 
 .menu{
   background-color: rgba(39, 39, 43, 0.9);
-   padding: 1%;
-
+   padding: 2%;
+   position: fixed;
+   margin-left: 15%;
 }
 .menu,footer{
   padding: 2%;

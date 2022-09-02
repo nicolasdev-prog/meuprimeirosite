@@ -75,7 +75,7 @@ figure{
   background-color: rgba(39, 39, 43, 0.9);
    padding: 2%;
    position: fixed;
-   margin-left: 15%;
+   margin-left: 10%;
 }
 .menu,footer{
   padding: 2%;
@@ -85,7 +85,7 @@ figure{
   padding-top: 1%;
   line-height: 1.5;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .itens_menu a:visited, .itens_menu a:link{
     color: #FFDEAD;
@@ -96,7 +96,6 @@ figure{
     .itens_menu a:visited, a link {
       text-decoration: none;
       font-weight: bolder;
-      text-shadow: 2px 2px black;
     }
   
   .itens_menu a:hover{
